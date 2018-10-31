@@ -19,7 +19,7 @@
 static NSString *baiduKey = @"";
 //微信记得配置info里面的url type key
 //极光推送key
-static NSString *jgappKey = @"d664899e5158f9a1b5150244";     //填写appkey
+static NSString *jgappKey = @"";     //填写appkey
 static NSString *jgchannel = @"";    //填写channel   一般为nil
 static BOOL isProduction = false;  //填写isProdurion  平时测试时为false ，生产时填写true
 

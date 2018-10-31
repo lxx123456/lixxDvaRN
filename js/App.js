@@ -11,7 +11,7 @@ import {MapView, MapTypes, MapModule, Geolocation} from 'react-native-baidu-map'
 import * as WeChat from 'react-native-wechat'
 import JAnalyticsModule from "janalytics-react-native";
 
-const JAnalKey = 'd664899e5158f9a1b5150244';//极光统计key
+const JAnalKey = '';//极光统计key
 
 class App extends Component {
 	constructor(props) {
