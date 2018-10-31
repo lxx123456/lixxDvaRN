@@ -1,0 +1,46 @@
+{
+  "name": "PolySoftRN",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "antd-mobile-rn": "^2.2.1",
+    "dva-core": "^1.4.0",
+    "immutable": "^3.8.2",
+    "janalytics-react-native": "file:ThirdLibrary/janalytics-react-native",
+    "jcore-react-native": "file:ThirdLibrary/jcore-react-native",
+    "jpush-react-native": "file:ThirdLibrary/jpush-react-native",
+    "moment": "^2.22.2",
+    "native-base": "^2.8.1",
+    "prop-types": "^15.6.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-baidu-map": "file:ThirdLibrary/react-native-baidu-map",
+    "react-native-device-info": "file:ThirdLibrary/react-native-device-info",
+    "react-native-image-crop-picker": "^0.21.2",
+    "react-native-image-resizer": "file:ThirdLibrary/react-native-image-resizer",
+    "react-native-image-zoom-viewer": "^2.2.23",
+    "react-native-picker": "file:ThirdLibrary/react-native-picker",
+    "react-native-scrollable-tab-view": "file:ThirdLibrary/react-native-scrollable-tab-view",
+    "react-native-vector-icons": "file:ThirdLibrary/react-native-vector-icons",
+    "react-native-wechat": "file:ThirdLibrary/react-native-wechat",
+    "react-navigation": "^2.18.0",
+    "react-redux": "^5.0.7"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-plugin-import": "^1.8.0",
+    "babel-plugin-module-alias": "^1.6.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-react-native": "^5",
+    "jest": "23.4.2",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

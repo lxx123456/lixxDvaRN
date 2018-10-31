@@ -1,0 +1,73 @@
+{
+  "_from": "janalytics-react-native",
+  "_id": "janalytics-react-native@1.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-wCD0v9un1DauaDOHpC5WY/G/aQE=",
+  "_location": "/janalytics-react-native",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "janalytics-react-native",
+    "name": "janalytics-react-native",
+    "escapedName": "janalytics-react-native",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/janalytics-react-native/download/janalytics-react-native-1.1.5.tgz",
+  "_shasum": "c020f4bfdba7d436ae683387a42e5663f1bf6901",
+  "_spec": "janalytics-react-native",
+  "_where": "/Users/V/Desktop/梵华怡居app代码/PolySoftRN",
+  "author": {
+    "name": "KenChoi, HuminiOS"
+  },
+  "bugs": {
+    "url": "https://github.com/jpush/janalytics-react-native/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "a janalytics plugin for react native application",
+  "directories": {
+    "example": "example"
+  },
+  "homepage": "https://github.com/jpush/janalytics-react-native#readme",
+  "keywords": [
+    "janalytics"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "janalytics-react-native",
+  "peerDependencies": {
+    "jcore-react-native": ">= 1.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpush/janalytics-react-native.git"
+  },
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "libz",
+        "CoreTelephony",
+        "Security",
+        "CFNetwork",
+        "CoreFoundation",
+        "SystemConfiguration",
+        "Foundation",
+        "UIKit",
+        "libresolv",
+        "CoreGraphics",
+        "CoreLocation"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.5"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--透明-->
+    <color name="app_transparent">#00000000</color>
+    <!--背景-->
+    <color name="app_background">#F2F2F2</color>
+    <!--白色-->
+    <color name="white">#FFFFFF</color>
+    <!--绿色-->
+    <color name="app_green">#00b25d</color>
+    <!--提示文字颜色-->
+    <color name="color_nine">#999999</color>
+    <!--提示文字颜色-->
+    <color name="color_text">#535353</color>
+    <!--分割线-->
+    <color name="app_divider">#D9D9D9</color>
+
+</resources>
+

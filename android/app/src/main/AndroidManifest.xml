@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.polysoftrn">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+    <application
+            android:name=".MainApplication"
+            android:icon="@mipmap/ic_launcher"
+            android:allowBackup="false"
+            android:theme="@style/AppTheme"
+            tools:replace="android:allowBackup">
+
+        <meta-data
+                android:name="JPUSH_APPKEY"
+                android:value="${JPUSH_APPKEY}"/>
+        <meta-data
+                android:name="JPUSH_CHANNEL"
+                android:value="${APP_CHANNEL}"/>
+        <!--百度-->
+        <meta-data
+                android:name="com.baidu.lbsapi.API_KEY"
+                android:value="Tk42MlkTh0tLiIRyLC8zZYkv1WD1fl51" />
+
+        <activity
+                android:name=".MainActivity"
+                android:theme="@style/BaseTheme"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+                android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    <meta-data
+        android:name="JPUSH_APPKEY"
+        android:value="${JPUSH_APPKEY}" />
+    <meta-data
+        android:name="JPUSH_CHANNEL"
+        android:value="${APP_CHANNEL}" />
+
+
+
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity"/>
+    </application>
+
+</manifest>

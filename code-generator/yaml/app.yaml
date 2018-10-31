@@ -1,0 +1,20 @@
+
+
+filename: AppModels.js
+namespace: app
+actions:
+
+#
+#  - name: 登录
+#    type: api
+#    functionName: getMessage
+#    urlName: login
+#    urlPath: /api/v1/us/users/login
+#
+#  - name: 保存登陆表单
+#    type: single
+#    functionName: saveLoginForm
+
+  - name: 主页点击tabbar
+    type: single
+    functionName: clickTabbar

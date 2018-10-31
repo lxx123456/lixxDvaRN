@@ -1,0 +1,41 @@
+{
+  "name": "JAnalyticsRN",
+  "version": "1.1.5",
+  "homepage": "https://github.com/jpush/janalytics-react-native",
+  "summary": "a janalytics plugin for react native application",
+  "license": "MIT",
+  "authors": {
+    "huminios": "380108184@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/jpush/janalytics-react-native.git",
+    "tag": "1.1.5"
+  },
+  "source_files": "ios/RCTJAnalyticsModule/*.{h,m}",
+  "preserve_paths": "*.js",
+  "frameworks": [
+    "UIKit",
+    "CFNetwork",
+    "CoreFoundation",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Foundation",
+    "Security",
+    "CoreLocation"
+  ],
+  "weak_frameworks": "UserNotifications",
+  "libraries": [
+    "z",
+    "resolv"
+  ],
+  "vendored_libraries": "ios/RCTJAnalyticsModule/*.a",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

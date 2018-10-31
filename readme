@@ -1,0 +1,68 @@
+# 运行
+1. npm install
+2. react-native run-ios 或react-native run-android
+
+项目结构:
+android:安卓工程
+code-generator dva代码生成器
+ios：ios工程
+ThirdLibrary 需要更改的第三方库的位置
+node_modules 第三方的库
+babelrc:配置路径，插件
+
+js下面的路径：
+ [
+  setup：项目入口,dva配置
+  App：路由引入，共用的启动配置
+  Assets：放图片
+  Components：共用组件
+  Constants: 宏定义
+  Config：请求地址
+  Models：dva的models
+  Pages：页面js
+  ResourceJson:本地json(省市县)
+  Routes：路由配置
+  Themes：全局主题
+  Utils：小技巧判断
+
+ ]
+package.json:放第三方库引入版本，
+//    暂时不用
+//    "react-native-imui": "file:ThirdLibrary/react-native-imui",
+//    "react-native-netease-im": "file:ThirdLibrary/react-native-netease-im",
+
+
+
+第三方key
+
+百度地图：
+
+极光推送：
+
+
+热更新code push相关：
+
+fhyj-Android
+┌────────────┬──────────────────────────────────────────────────────────────────┐
+│ Name       │ Deployment Key                                                   │
+├────────────┼──────────────────────────────────────────────────────────────────┤
+│ Production │ fP5UnUfhHbVM2GCkwgXwosBSKEkmdadd5aeb-585a-4dd9-99de-252db34a580d │
+├────────────┼──────────────────────────────────────────────────────────────────┤
+│ Staging    │ Lv0fOwFXUolXyel8vnYBBDqxh2Ehdadd5aeb-585a-4dd9-99de-252db34a580d │
+└────────────┴──────────────────────────────────────────────────────────────────┘
+fhyj-Ios
+
+┌────────────┬──────────────────────────────────────────────────────────────────┐
+│ Name       │ Deployment Key                                                   │
+├────────────┼──────────────────────────────────────────────────────────────────┤
+│ Production │ qvjgHIhGlTGP08nAWi9ssMWKtXT-dadd5aeb-585a-4dd9-99de-252db34a580d │
+├────────────┼──────────────────────────────────────────────────────────────────┤
+│ Staging    │ ulwRtWyNOdanSB1P0aHKfSZj4vtPdadd5aeb-585a-4dd9-99de-252db34a580d │
+└────────────┴──────────────────────────────────────────────────────────────────┘
+
+
+
+fhyj pad地址 http://maxiaoyao@gitlab.polyhome.net/maxiaoyao/fhyjPad.git
+
+
+

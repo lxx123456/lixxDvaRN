@@ -1,0 +1,25 @@
+{
+  "name": "dva-generator",
+  "version": "0.0.0",
+  "author": "xinghuoliaoyuan45",
+  "description": "dva代码生成器",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "homepage": "https://github.com/xinghuoliaoyuan45/RNDvaTrain",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinghuoliaoyuan45/RNDvaTrain"
+  },
+  "keywords": [
+    "code-generator",
+    "dot",
+    "js-yaml",
+    "dva"
+  ],
+  "dependencies": {
+    "dot": "^1.1.1",
+    "js-yaml": "^3.12.0"
+  }
+}
