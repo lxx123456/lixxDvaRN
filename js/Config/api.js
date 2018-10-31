@@ -2,7 +2,7 @@
  * 网络请求地址
  *
  * */
-export const server = 'http://www.bhaupu.polyhome.net/mobile';
+export const server = '';
 export const API = {
 	// 登录
 	login: server + '/api/v1/us/users/login',
